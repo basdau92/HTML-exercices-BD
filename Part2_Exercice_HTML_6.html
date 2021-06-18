@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/Part2_Exercice_HTML_6.css" rel="stylesheet" />
+    <title>Exercice 6 - Formulaire</title>
+  </head>
+  <body>
+      <form>
+        <fieldset id="fs1" class="fieldsets">
+            <legend id="legendfs1">Votre identité</legend>
+            <div>
+                <label for="namefs1">1.Nom :</label>
+                <input type="text" name="Name" placeholder="Nom" id="namefs1">
+            </div>
+            <div>
+                <label for="prenomfs1">2.Prénom :</label>
+                <input type="text" name="Prénom" placeholder="Prénom" id="prenomfs1">
+            </div>
+            <div>
+                <label for="mailfs1">3.Adresse mail :</label>
+                <input type="text" name="Mail" placeholder="Adresse mail" id="mailfs1">
+            </div>     
+        </fieldset>
+        <fieldset id="fs2">
+            <legend id="legendfs2">Adresse de livraison</legend>
+            <div>
+                <label for="adressefs2">1.Adresse :</label>
+                <textarea name="Adresse" id="adressefs2" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <label for="codepostfs2">2.Code Postal :</label>
+                <input type="text" name="Code Postal" placeholder="Code postal" id="codepostfs2">
+            </div>
+            <div>
+                <label for="villefs2">3.Ville :</label>
+                <input type="text" name="Ville" placeholder="Ville" id="villefs2">
+            </div>   
+        </fieldset>
+        <fieldset id="fs3" class="fieldsets">
+            <legend id="legendfs3">Informations de règlement</legend>
+            <div>
+                <label for="cbfs3">1.Type de carte bancaire :</label>
+                <input type="text" name="Carte bancaire" placeholder="Type de carte bancaire" id="cbfs3">
+                <div>
+                    <input type="radio" name="Selecttypecard" id="visafs3" required="required" checked="checked">
+                    <label for="visafs3">VISA</label><br>
+                    <input type="radio" name="Selecttypecard" id="mastercardfs3">
+                    <label for="mastercardfs3">Mastercard</label>
+                </div>
+            </div>
+            <div>
+                <label for="numcardfs3">2.Numéro de carte :</label>
+                <input type="text" name="Numéro carte" placeholder="Numéro de carte" id="numcardfs3">
+            </div>
+            <div>
+                <label for="codesecufs3">3.Code de sécurité :</label>
+                <input type="text" name="Code sécurité" placeholder="Code de sécurité" id="codesecufs3">
+            </div>
+            <div>
+                <label for="nomtitufs3">4. Nom de titulaire :</label>
+                <input type="text" name="Nom titulaire" placeholder="Nom de titulaire" id="nomtitufs3">
+            </div>       
+        </fieldset>
+      </form>
+    <input type="button" id="submitbtn" value="J'achète!">
+  </body>
+</html>
