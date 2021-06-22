@@ -1,0 +1,75 @@
+/*Contenu*/
+body {
+    background-image: url(https://media.architecturaldigest.com/photos/564521ffd33b16de31fa45b0/2:1/w_2000,h_1000,c_limit/wayne-thiebaud-book-001.jpg);
+    background-size: 50%;
+    margin:auto;
+    padding: auto;
+  }
+
+/*Titres*/
+h1{
+    background-color: lightgreen;
+    color: darkred;
+    font-size: 2.5rem;
+    margin: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2{
+    color: chocolate;
+    font-size: 1.5rem;
+    margin: 5px;
+}
+
+/*Paragraphes - Articles - Aside*/
+p{
+  font-weight: bold;
+  text-align: center;
+}
+
+.sec{
+  display: flex;
+}
+
+#sec1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sec2{
+
+}
+
+article{
+  background-color: #fdf0d5;
+}
+
+aside{
+  background-color: #e26d5c;
+  border-radius: 10px;
+  
+}
+
+#pintro{
+  background-color: #fdf0d5;
+  font-size: 25px;
+}
+
+/*Images*/
+#imgintro{
+
+}
+
+#img{
+  height: 250px;
+  min-height: 200px;
+  min-width: 400px;
+  width: 450px;
+}
+
+
+
+  
+  

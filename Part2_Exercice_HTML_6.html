@@ -17,7 +17,7 @@
             </div>
             <div>
                 <label for="prenomfs1">2.Prénom :</label>
-                <input type="text" name="Prénom" placeholder="Prénom" id="prenomfs1">
+                <input type="text" name="Prenom" placeholder="Prénom" id="prenomfs1">
             </div>
             <div>
                 <label for="mailfs1">3.Adresse mail :</label>
@@ -43,12 +43,16 @@
             <legend id="legendfs3">Informations de règlement</legend>
             <div>
                 <label for="cbfs3">1.Type de carte bancaire :</label>
-                <input type="text" name="Carte bancaire" placeholder="Type de carte bancaire" id="cbfs3">
                 <div>
-                    <input type="radio" name="Selecttypecard" id="visafs3" required="required" checked="checked">
-                    <label for="visafs3">VISA</label><br>
-                    <input type="radio" name="Selecttypecard" id="mastercardfs3">
-                    <label for="mastercardfs3">Mastercard</label>
+                    <input type="radio" name="Selecttypecard" class="cardfs3" required="required" checked="checked">
+                    <label for="visafs3" class="labelcardfs3">VISA</label><br>
+                    <input type="radio" name="Selecttypecard" class="cardfs3">
+                    <label for="mastercardfs3" class="labelcardfs3">Mastercard</label>
+                    <!-- Faire un questionnaire à choix multiple avec les checkboxes : mettre name="checkbox[]"  
+                    <input type="checkbox" name="checkbox[]" id="">
+                    <input type="checkbox" name="checkbox[]" id="">
+                    <input type="checkbox" name="checkbox[]" id="">
+                    -->
                 </div>
             </div>
             <div>
@@ -64,7 +68,8 @@
                 <input type="text" name="Nom titulaire" placeholder="Nom de titulaire" id="nomtitufs3">
             </div>       
         </fieldset>
+            <input type="submit" id="submitbtn" value="J'achète!">
       </form>
-    <input type="button" id="submitbtn" value="J'achète!">
+    
   </body>
 </html>

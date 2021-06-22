@@ -9,7 +9,7 @@ h1{
 /***Tableau***/
 table{
     border: 1px solid black;
-    border-collapse: collapse;
+    border-collapse:collapse;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     letter-spacing: 1px;

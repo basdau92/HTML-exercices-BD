@@ -17,6 +17,15 @@ background-color:#92dce5;
     background-color:#05668d;
 }
 
+/*Labels*/
+label{
+    margin-left: 25px;
+}
+
+.labelcardfs3{
+    margin-left: 0px;
+}
+
 /*Inputs*/
 input, textarea{
     background-color:#f5d2cc;
@@ -25,13 +34,14 @@ input, textarea{
     margin: 2px;
 }
 
+.cardfs3{
+    margin-left: 100px;
+}
+
 #submitbtn{
     background-color:#a5be00;
     border: 2px solid #d74b33;
     border-radius: 5px;
     padding: 5px;
 }
-
-
-
 
