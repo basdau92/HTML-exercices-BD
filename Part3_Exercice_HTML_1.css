@@ -1,0 +1,72 @@
+/*Titre h1*/
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    margin: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+}
+
+/*Affichage responsive smartphone "Small" (<640px)*/
+@media screen and (max-width: 640px){
+
+    h1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 3rem;
+        margin: 20px;
+        text-align: center;
+        text-decoration: underline;
+    }
+    
+    p{
+        background-color: #219ebc;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        margin: 15px;
+    }
+
+}
+
+/*Affichage responsive tablette "Medium" (641px to 1007px)*/
+@media screen and (min-width: 641px) and (max-width: 1280px){
+
+    h1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 3rem;
+        margin: 15px;
+        text-align: center;
+        text-decoration: underline;
+    }
+    
+    p{
+        background-color: #76c893;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        margin: 5px;
+    }
+}
+
+/*Affichage responsive tablette "Large" (1008px and larger)*/
+@media screen and (min-width: 1280px){
+
+    h1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 2rem;
+        margin: 10px;
+        text-align: center;
+        text-decoration: underline;
+    }
+    
+    p{
+        background-color: #f9c74f;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        margin: 5px;
+    }
+    
+}
