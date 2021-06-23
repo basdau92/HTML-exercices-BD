@@ -1,6 +1,6 @@
 /*Grid*/
 .grid{
-    display: grid;
+    isplay: grid;
     grid-template-columns: 150px 150px 150px 150px;
     grid-template-rows:60px 60px 60px 60px;
     grid-gap: 20px;
