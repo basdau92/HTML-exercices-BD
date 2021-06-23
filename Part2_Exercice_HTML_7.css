@@ -13,52 +13,56 @@ p{
 
 .grid {
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-columns: 33% 22% 11% 11% 2% 20%;
   grid-template-rows: 35px 1fr 1fr 130px;
+  grid-template-areas: "a a a a b b"
+                       "c d d e e e"
+                       "c f g g h h"
+                       "i i i i i i";
 }
 
 /*Rectangles*/
 #rec1 {
   background-color: #06d6a0;
-  grid-area: 1 / 1 / 1 / 6;
+  grid-area: a;
 }
 
 #rec2 {
   background-color: #1a759f;
-  grid-area: 1 / 6 / 1 / 7;
+  grid-area: b;
 }
 
 #rec3 {
   background-color: #e63946;
-  grid-area: 2 / 1 / 4 / 3;
+  grid-area: c;
 }
 
 #rec4 {
   background-color: #e76f51;
-  grid-area: 2 / 3 / 2 / 5;
+  grid-area: d;
 }
 
 #rec5 {
   background-color: #b7b7a4;
-  grid-area: 2 / 5 / 2 / 7;
+  grid-area: e;
 }
 
 #rec6 {
   background-color: #ffb703;
-  grid-row-start: 3 / 3 / 3 / 4;
+  grid-row-start: f;
 }
 
 #rec7 {
   background-color: #2a9d8f;
-  grid-area: 3 / 4 / 3 / 5;
+  grid-area: g;
 }
 
 #rec8 {
   background-color: #f48c06;
-  grid-area: 3 / 5 / 3 / 6;
+  grid-area: h;
 }
 
 #rec9 {
   background-color: #2f3e46;
-  grid-area: 4 / 1 / 4 / -1;
+  grid-area: i;
 }
