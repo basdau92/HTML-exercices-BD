@@ -1,0 +1,47 @@
+/*Body*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/*Fieldsets*/
+#fs1, #legendfs1 {
+background-color:#92dce5;
+}
+
+#fs2, #legendfs2  {
+    background-color:#427aa1;
+}
+
+#fs3, #legendfs3  {
+    background-color:#05668d;
+}
+
+/*Labels*/
+label{
+    margin-left: 25px;
+}
+
+.labelcardfs3{
+    margin-left: 0px;
+}
+
+/*Inputs*/
+input, textarea{
+    background-color:#f5d2cc;
+    border: 2px solid #a5be00;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.cardfs3{
+    margin-left: 100px;
+}
+
+#submitbtn{
+    background-color:#a5be00;
+    border: 2px solid #d74b33;
+    border-radius: 5px;
+    padding: 5px;
+}
+

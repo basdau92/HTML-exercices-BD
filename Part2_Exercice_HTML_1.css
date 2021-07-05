@@ -1,0 +1,22 @@
+/*Titre h1*/
+h1{
+    font-weight: bold;
+    margin-left: 350px;
+}
+
+/*Paragraphe*/
+p{
+    font-size: large;
+}
+
+/*Noms du personnage*/
+.personnage{
+    font-weight: bold ;
+    color: red;
+}
+
+/*Lieux*/
+.lieu{
+    font-weight: bold ;
+    color: green;
+}

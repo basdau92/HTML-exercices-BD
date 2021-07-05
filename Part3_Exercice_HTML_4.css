@@ -1,0 +1,151 @@
+/*Grid*/
+.grid{
+    display: grid;
+    height: 500px;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 20% 30%;
+    grid-template-areas: 
+    "a b c d"
+    "e . . f"
+    "g . h i";
+}
+
+/*Items de la grille*/
+#rec1{
+    background-color: #ae2012;
+    grid-area: a;
+}
+
+#rec2{
+    background-color: #94d2bd;
+    grid-area: b;
+}
+
+#rec3{
+    background-color: #0a9396;
+    grid-area: c;
+}
+
+#rec4{
+    background-color: #7209b7;
+    grid-area: d;
+}
+
+#rec5{
+    background-color: #e85d04;
+    grid-area: e;
+}
+
+#rec6{
+    background-color: #277da1;
+    grid-area: f;
+}
+
+#rec7{
+    background-color: #f94144;
+    grid-area: g;
+}
+
+#rec8{
+    background-color: #55a630;
+    grid-area: h;
+}
+
+#rec9{
+    background-color: #3d5a80;
+    grid-area: i;
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+
+/*Affichage responsive smartphone "Small" (<768px)
+@media screen and (max-width: 768px){
+
+    nav a{
+        color: red;
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    
+    ul {
+        display: flex;
+        display: none;
+        list-style: none;
+        margin:  10px;
+        padding: 10px;
+    }
+
+    #menuburger{
+        color: black;
+        display: flex;
+        margin-left: 10px;
+    }
+
+    h1{
+        color: blueviolet;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.5rem;
+    } 
+}
+
+/*Affichage responsive tablette "Medium" (768px to 1280px)
+@media screen and (min-width: 768px) and (max-width: 1280px){
+
+    nav a{
+        color: red;
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    
+    ul {
+        display: flex;
+        list-style: none;
+        margin:  10px;
+        padding: 10px;
+    }
+
+    #menuburger{
+        color: black;
+        display: none;
+        margin-left: 10px;
+    }
+
+    h1{
+        color: blueviolet;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+    }   
+}
+
+/*Affichage responsive tablette "Large" (1280px and larger)
+@media screen and (min-width: 1280px){
+
+    nav a{
+        color: red;
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    
+    ul{
+        display: flex;
+        list-style: none;
+        margin:  10px;
+        padding: 10px;
+    }
+
+    #menuburger{
+        color: black;
+        display: none;
+        margin-left: 10px;
+    }
+
+    h1{
+        color: blueviolet;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+    }
+}*/

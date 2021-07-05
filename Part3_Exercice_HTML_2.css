@@ -1,0 +1,113 @@
+/*Navbar*/
+nav a{
+    color: red;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin:  10px;
+    padding: 10px;
+}
+
+#menuburger{
+    display: none;
+    margin-left: 10px;
+}
+
+/*Titre*/
+h1{
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+/*Affichage responsive smartphone "Small" (<768px)*/
+@media screen and (max-width: 768px){
+
+    nav a{
+        color: red;
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    
+    ul {
+        display: flex;
+        display: none;
+        list-style: none;
+        margin:  10px;
+        padding: 10px;
+    }
+
+    #menuburger{
+        color: black;
+        display: flex;
+        margin-left: 10px;
+    }
+
+    h1{
+        color: blueviolet;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.5rem;
+    } 
+}
+
+/*Affichage responsive tablette "Medium" (768px to 1280px)*/
+@media screen and (min-width: 768px) and (max-width: 1280px){
+
+    nav a{
+        color: red;
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    
+    ul {
+        display: flex;
+        list-style: none;
+        margin:  10px;
+        padding: 10px;
+    }
+
+    #menuburger{
+        color: black;
+        display: none;
+        margin-left: 10px;
+    }
+
+    h1{
+        color: blueviolet;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+    }   
+}
+
+/*Affichage responsive tablette "Large" (1280px and larger)*/
+@media screen and (min-width: 1280px){
+
+    nav a{
+        color: red;
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    
+    ul{
+        display: flex;
+        list-style: none;
+        margin:  10px;
+        padding: 10px;
+    }
+
+    #menuburger{
+        color: black;
+        display: none;
+        margin-left: 10px;
+    }
+
+    h1{
+        color: blueviolet;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+    }
+}

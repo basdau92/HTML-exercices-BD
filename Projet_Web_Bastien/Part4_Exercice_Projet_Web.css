@@ -1,0 +1,257 @@
+/***** Affichage responsive design pour écrans réduits (smartphones, <640px) *****/
+
+@media screen and (max-width: 640px) {
+ /*** Header ***/
+ #divtitre {
+  background-color: #e0cda9;
+  opacity: 0.75;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #8a5a44;
+  font-family: "Oxygen", sans-serif;
+  text-decoration: underline;
+  font-size: 2rem;
+  margin-top: 40px;
+}
+
+#divnav {
+  background-color: #e0cda9;
+  border: 2px solid #8a5a44;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 200px 10px 0 10px;
+  padding: 10px 0 10px 0;
+}
+
+#menuburger{
+  font-size: 50px;
+}
+
+nav a {
+  color: #3f2204;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 5px 10px 5px 10px;
+  visibility: hidden;
+}
+
+#searchbtn {
+  margin-right: 10px;
+  visibility: hidden;
+}
+
+/***Header - Image***/
+header {
+  background: center no-repeat
+    url("../Projet_Web_Bastien/Images projet site/header.jpg");
+  background-size: cover;
+  height: 400px;
+}
+
+/*** Body ***/
+body {
+  background-color: #fff0bc;
+}
+
+/*** Main ***/
+#main-grid {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-areas: "bloc1 bloc2 bloc3";
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+#paraintro {
+  background-color: #8a5a44;
+  border: 2px solid #3f2204;
+  color: #fefefe;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  width: 80%;
+  margin: 5px auto 5px auto;
+}
+
+.bloc {
+  border-radius: 50%;
+  display: block;
+  height: 250px;
+  margin: 5px auto 5px auto;
+  width: 300px;
+}
+
+#par1 {
+  grid-area: bloc1;
+}
+
+#par2 {
+  grid-area: bloc2;
+}
+
+#par3 {
+  grid-area: bloc3;
+}
+
+#par1 h2,
+#par2 h2,
+#par3 h2 {
+  text-align: center;
+}
+
+/*** Main - images ***/
+.imgbloc {
+  background-color: #e0cda9;
+  border: 2px solid #3f2204;
+}
+
+/*** Footer ***/
+#divfooter {
+  background-color: #8a5a44;
+  color: #fefefe;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  margin: 5px auto 5px auto;
+}
+
+}
+
+
+/***** Affichage responsive design pour écrans larges (PC, >1280px) *****/
+
+@media screen and (min-width: 1280px) {
+  /*** Header ***/
+  #divtitre {
+    background-color: #e0cda9;
+    opacity: 0.75;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h1 {
+    color: #8a5a44;
+    font-family: "Oxygen", sans-serif;
+    text-decoration: underline;
+    font-size: 2rem;
+    margin-top: 40px;
+  }
+
+  #divnav {
+    background-color: #e0cda9;
+    border: 2px solid #8a5a44;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 200px 10px 0 10px;
+    padding: 10px 0 10px 0;
+  }
+
+  #menuburger{
+    display: none;
+  }
+
+  nav a {
+    color: #3f2204;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 5px 10px 5px 10px;
+  }
+
+  #searchbtn {
+    margin-right: 10px;
+  }
+
+  /***Header - Image***/
+  header {
+    background: center no-repeat
+      url("../Projet_Web_Bastien/Images projet site/header.jpg");
+    background-size: cover;
+    height: 400px;
+  }
+
+  /*** Body ***/
+  body {
+    background-color: #fff0bc;
+  }
+
+  /*** Main ***/
+  #main-grid {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-areas: "bloc1 bloc2 bloc3";
+  }
+
+  h2 {
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  #paraintro {
+    background-color: #8a5a44;
+    border: 2px solid #3f2204;
+    color: #fefefe;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    width: 80%;
+    margin: 5px auto 5px auto;
+  }
+
+  .bloc {
+    border-radius: 50%;
+    display: block;
+    height: 250px;
+    margin: 5px auto 5px auto;
+    width: 300px;
+  }
+
+  #par1 {
+    grid-area: bloc1;
+  }
+
+  #par2 {
+    grid-area: bloc2;
+  }
+
+  #par3 {
+    grid-area: bloc3;
+  }
+
+  #par1 h2,
+  #par2 h2,
+  #par3 h2 {
+    text-align: center;
+  }
+
+  /*** Main - images ***/
+  .imgbloc {
+    background-color: #e0cda9;
+    border: 2px solid #3f2204;
+  }
+
+  /*** Footer ***/
+  #divfooter {
+    background-color: #8a5a44;
+    color: #fefefe;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin: 5px auto 5px auto;
+  }
+}

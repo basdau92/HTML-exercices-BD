@@ -1,0 +1,43 @@
+/* Titre */
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/*Tableau*/
+table{
+    border: 1px solid black;
+    border-collapse:collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin: auto;
+}
+
+/*Entêtes*/
+thead{
+    font-weight: bold;
+}
+
+/*Cellules*/
+td{
+    border: 1px solid black;
+    border-spacing: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+/*Couleurs données crédit-débit*/
+.coulcredit{
+    color:green;
+    font-weight: bold;
+}
+
+.couldebit{
+    color: red;
+    font-weight: bold;
+}
+
+
