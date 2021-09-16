@@ -1,0 +1,32 @@
+/* Changement couleur bouton progressif hover */
+
+.div-btn{
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 80px;
+}
+
+.btn-hover{
+    background-color: darkgrey;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5em;
+    -webkit-transition: background-color 10s ease;
+    -moz-transition: background-color 10s ease;
+    -o-transition: background-color 10s ease;
+    transition: background-color 10s ease;
+    
+    /* OU BIEN */ 
+    transition-duration: 10s; 
+    transition-property: background-color;
+}
+
+.btn-hover:hover{
+    background-color: #1560bd;
+    border-color: darkgrey;
+    color: darkgrey;
+    cursor: pointer;
+}

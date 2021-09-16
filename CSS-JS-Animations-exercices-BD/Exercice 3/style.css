@@ -1,0 +1,15 @@
+/* Changement police et couleur texte */
+
+.text-class {
+    color: blue;
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+    transition: font-size 1s ease-out;
+}
+
+.text-class.animation {
+    color: red;
+    font-size: 30px;
+    /* transition: font-size 1s ease-out;*/
+}
